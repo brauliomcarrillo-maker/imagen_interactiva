@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Actividad para la materia IA">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Contenido</title>
+</head>
+<body>
+  <div class="contenedor_principal">
+    <button onclick="mostrarMensaje('¡Hola! Soy el ojo izquierdo.')" class="con3"><h1>DEFINICIÓN DE INTELIGENCIA ARTIFICIAL</h1></button>
+    <br><br><br><br><br>
+    <div class="contenedor_img_base">
+      <button onclick="mostrarMensaje('¡Hola! Soy el ojo izquierdo.')" class="con"><img src="imagenes/ojo.png" alt="" class="btn"></button  >
+
+      <button onclick="mostrarMensaje('¡Hola! Soy el ojo izquierdo.')" class="con"><img src="imagenes/ojo.png" alt="" class="btn"></button>
+
+      <br>
+
+      <button onclick="mostrarMensaje('aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')" class="con2"><img src="imagenes/boca.png" alt="" class="btn2"></button>
+      
+    </div> 
+    <br><br><br><br><br><br>
+    
+  </div>
+  <br>
+
+  <textarea id="cajitaTexto" class="info-box" readonly></textarea>
+</body>
+
+<script>
+        function mostrarMensaje(texto) {
+            const caja = document.getElementById('cajitaTexto');
+            caja.innerText = texto;
+            caja.style.display = 'block';
+        }
+    </script>
+</html>
