@@ -1,23 +1,24 @@
 body{
-  background-color: rgb(218, 214, 207);
+  background-color: rgb(229, 238, 255);
   text-align: center;
   font-size: 24px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .contenedor_principal{
-  border: 5px black solid;
+  border: 5px rgb(56, 56, 56) solid;
   border-radius: 20px ;
   width: 1200px;
   margin: auto;
   margin-left: 160px;
-  margin-top: 75px;
+  margin-top: 3 5px;
 }
 
 .contenedor_principal{
   background-image: url(imagenes/IA.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: whitesmoke;
 }
 
 .contenedor_definicion{
@@ -38,7 +39,7 @@ body{
   border: 0px;
   margin: 10px;
   margin-bottom: 0px;
-  background-color: none;
+  background-color: whitesmoke;
   margin-top: 30px;
   cursor: pointer;
 }
@@ -62,15 +63,18 @@ body{
   width: 1400px;
   margin: auto;
   font-size: 20px;
-  height: 150px;
+  height: 110px;
   text-align: center;
   border: 0px;
   border-radius: 20px;
   padding: 20px;
+  margin-top: 10px;
+  border: 5px rgb(56, 56, 56) solid;
+  background-color: whitesmoke;
 }
 
 .con3{
-  background-color: rgb(218, 214, 207);
+  background-color: whitesmoke;
   border: 0px;
   font-size: 18px;
   margin-top: 5px;
